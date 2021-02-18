@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>완주와일드푸드축제</title>
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/fontawesome-free-5.1.0-web/css/all.css">
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <div id="header_top">
+                <div id="user">
+                    <a href="#">로그인</a>
+                    <a href="#">회원가입</a>
+                </div>
+            </div>
+            <div id="header_bottom">
+                <div id="logo">
+                    <img src="resources/images/logo.png" alt="Logo">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">홈</a></li>
+                        <li><a href="shopping.html">쇼핑몰</a></li>
+                        <li><a href="#">제안 요청</a></li>
+                        <li><a href="#">제안 하기</a></li>
+                    </ul>
+                </nav>
+                <div id="sns">
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-facebook"></i>
+                </div>
+            </div>
+        </header>
+        
+        <div id="visual" class="normal">
+            <img src="resources/images/visual.jpg" alt="visual" title="visual" id="visual_img">
+            <div id="visual_word">
+                <p>쇼핑몰</p>
+            </div>
+        </div>
+        
+        <div id="content">
+            <div class="content_wrap" id="shopping_basket">
+                <div class="content_box_title">
+                    <div class="content_box_title_circle"></div>
+                    <h2>장바구니</h2>
+                </div>
+                <div class="content_box">
+                    <table id="basket_table">
+                        <thead>
+                            <tr>
+                                <th>상품명</th>
+                                <th>가격</th>
+                                <th>구매 개수</th>
+                                <th>총 가격</th>
+                            </tr>
+                        </thead>
+                        <tbody id="basket_area">
+
+                        </tbody>
+                    </table>
+                    <button id="basket_buy_btn">구매</button>
+                </div>
+            </div>
+
+            <div class="content_wrap" id="shopping_item">
+                <div class="content_box_title">
+                    <div class="content_box_title_circle"></div>
+                    <h2>상품</h2>
+                </div>
+                <div class="content_box" id="item_area">
+                    <div class="item">
+                        <div class="item-body">
+                            <h5 class="item-name">감자</h5>
+                            <h6 class="item-price"><i class="fas fa-won-sign"></i> 10,000</h6>
+                            <div class="item-numberBox">
+                                <input type="number" class="item-num" min="1" value="1">
+                                <button class="item-numberBtn" id="item-numberPlus"><i class="fas fa-plus"></i></button>
+                                <button class="item-numberBtn" id="item-numberMin"><i class="fas fa-minus"></i></button>
+                            </div>
+                            <div class="item-buttonBox">
+                                <button class="item-basketBtn"><i class="fas fa-shopping-cart"></i>장바구니</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a id="sell_statistics_page" href="admin.html">판매 통계 페이지</a>
+            <script src="resources/js/script.js"></script>
+        </div>
+        <footer>
+            <div id="footer_top">
+                <div id="footer_map">
+                    <p>완주와일드푸드축제 지도</p>
+                    <img src="resources/images/Map.jpg" alt="footer_map">
+                </div>
+                <div id="footer_msg">
+                    (55352) 전북 완주군 용진읍 지암로 61(운곡리 975-78) 와일드푸드축제 추진위원회<br>
+                    사업자등록번호 : 418-82-70718 대표자 : 이명기 TEL : 063-290-2621~4 FAX : 063-290-2069<br>
+                    주최 : 완주군 / 주관 : 와일드푸드축제 추진위원회 / 후원 : 문화체육관광부, 전라북도, 한국관광공사
+                </div>
+                <div id="family_site">
+                    <p>Family Site</p>
+                    <ul>
+                        <li><a href="#">문화체육관광부</a>/</li>
+                        <li><a href="#">전라북도청</a>/</li>
+                        <li><a href="#">한국관광공사</a>/</li>
+                        <li><a href="#">완주군청</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="copyright">Copyright 2019. 완주와일드푸드축제. All rights reserved.</div>
+        </footer>
+    </div>
+</body>
+</html>

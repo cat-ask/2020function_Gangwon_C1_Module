@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>완주와일드푸드축제</title>
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/fontawesome-free-5.1.0-web/css/all.css">
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <div id="header_top">
+                <div id="user">
+                    <a href="#">로그인</a>
+                    <a href="#">회원가입</a>
+                </div>
+            </div>
+            <div id="header_bottom">
+                <div id="logo">
+                    <img src="resources/images/logo.png" alt="Logo">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">홈</a></li>
+                        <li><a href="shopping.html">쇼핑몰</a></li>
+                        <li><a href="#">제안 요청</a></li>
+                        <li><a href="#">제안 하기</a></li>
+                    </ul>
+                </nav>
+                <div id="sns">
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-facebook"></i>
+                </div>
+            </div>
+        </header>
+        
+        <div id="visual" class="normal">
+            <img src="resources/images/visual.jpg" alt="visual" title="visual" id="visual_img">
+            <div id="visual_word">
+                <p>판매 통계 보기</p>
+            </div>
+        </div>
+        
+        <div id="content" class="admin">
+            <div class="content_wrap" id="graph">
+                <div class="content_box_title">
+                    <div class="content_box_title_circle"></div>
+                    <h2>통계 그래프</h2>
+                </div>
+                <div class="content_box">
+                    <canvas id="graph_canvas"></canvas>
+                </div>
+            </div>
+
+            <div class="content_wrap" id="table">
+                <div class="content_box_title">
+                    <div class="content_box_title_circle"></div>
+                    <h2>판매 통계</h2>
+                </div>
+                <div class="content_box">
+                    <table id="sell_table">
+                        <thead>
+                            <tr>
+                                <th>구매자명</th>
+                                <th>구매 상품명</th>
+                                <th>구매 개수</th>
+                                <th>구매일시</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <script src="resources/js/script.js"></script>
+
+        </div>
+        <footer>
+            <div id="footer_top">
+                <div id="footer_map">
+                    <p>완주와일드푸드축제 지도</p>
+                    <img src="resources/images/Map.jpg" alt="footer_map">
+                </div>
+                <div id="footer_msg">
+                    (55352) 전북 완주군 용진읍 지암로 61(운곡리 975-78) 와일드푸드축제 추진위원회<br>
+                    사업자등록번호 : 418-82-70718 대표자 : 이명기 TEL : 063-290-2621~4 FAX : 063-290-2069<br>
+                    주최 : 완주군 / 주관 : 와일드푸드축제 추진위원회 / 후원 : 문화체육관광부, 전라북도, 한국관광공사
+                </div>
+                <div id="family_site">
+                    <p>Family Site</p>
+                    <ul>
+                        <li><a href="#">문화체육관광부</a>/</li>
+                        <li><a href="#">전라북도청</a>/</li>
+                        <li><a href="#">한국관광공사</a>/</li>
+                        <li><a href="#">완주군청</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="copyright">Copyright 2019. 완주와일드푸드축제. All rights reserved.</div>
+        </footer>
+    </div>
+</body>
+</html>
